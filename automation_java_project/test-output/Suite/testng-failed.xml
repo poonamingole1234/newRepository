@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="browsername" value="chrome"/>
+  <test thread-count="5" name="chrome(failed)">
+    <classes>
+      <class name="Test.Zerodha_login_test">
+        <methods>
+          <include name="chromeclose"/>
+          <include name="crossbrowser"/>
+          <include name="singup_link"/>
+        </methods>
+      </class> <!-- Test.Zerodha_login_test -->
+    </classes>
+  </test> <!-- chrome(failed) -->
+  <test thread-count="5" name="egde(failed)">
+    <parameter name="browsername" value="egde"/>
+    <classes>
+      <class name="Test.Zerodha_login_test">
+        <methods>
+          <include name="chromeclose"/>
+          <include name="crossbrowser"/>
+          <include name="singup_link"/>
+        </methods>
+      </class> <!-- Test.Zerodha_login_test -->
+    </classes>
+  </test> <!-- egde(failed) -->
+  <test thread-count="5" name="firefox(failed)">
+    <parameter name="browsername" value="firefox"/>
+    <classes>
+      <class name="Test.Zerodha_login_test">
+        <methods>
+          <include name="chromeclose"/>
+          <include name="loginwithvalidcreadintial"/>
+          <include name="crossbrowser"/>
+          <include name="singup_link"/>
+          <include name="forgott_link"/>
+        </methods>
+      </class> <!-- Test.Zerodha_login_test -->
+    </classes>
+  </test> <!-- firefox(failed) -->
+</suite> <!-- Failed suite [Suite] -->

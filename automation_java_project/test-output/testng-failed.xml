@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="Test.Zerodha_login_test">
+        <methods>
+          <include name="open_chrome"/>
+          <include name="chromeclose"/>
+          <include name="loginwithvalidcreadintial"/>
+          <include name="crossbrowser"/>
+          <include name="singup_link"/>
+          <include name="forgott_link"/>
+        </methods>
+      </class> <!-- Test.Zerodha_login_test -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
